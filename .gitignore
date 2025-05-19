@@ -1,0 +1,47 @@
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Datos (normalmente no se versionan, excepto muestras pequeñas)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos entrenados (pueden ser grandes)
+models/*.pkl
+models/*.h5
+
+# Archivos de configuración local
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
