@@ -1,0 +1,17 @@
+
+# Análisis de datos
+numpy==1.23.5
+pandas==1.5.2
+scipy==1.9.3
+
+# Visualización
+matplotlib==3.6.2
+seaborn==0.12.1
+
+# Machine Learning
+scikit-learn==1.1.3
+statsmodels==0.13.5
+
+# Procesamiento específico para petróleo (opcional)
+lasio==0.30
+welly==0.5.5
